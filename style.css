@@ -1,0 +1,63 @@
+body {
+  font-size: 18px;
+}
+.main-container {
+  width: 1600px;
+  height: 100vh;
+  background-color: hsla(1, 74%, 88%, 0.5);
+}
+
+.main-container > * {
+  margin: 0 auto;
+  padding: 5rem 10rem;
+} 
+
+.bold {
+  font-weight: bold;
+}
+
+/* Logo */
+.logo {
+  display:flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+.logo-circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: hsl(265, 68%, 65%);
+}
+
+.logo-rectangle {
+  width: 20px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: hsl(324, 82%, 66%)
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  display: flex;
+  color: hsl(202, 16%, 35%)
+}
+
+.list-item:first-child {
+  color: hsl(238, 43%, 23%);
+}
+
+.list-item {
+  padding: 2rem;
+}
