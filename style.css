@@ -2,7 +2,7 @@ body {
   font-size: 18px;
 }
 .main-container {
-  width: 1600px;
+  width: 1200px;
   height: 100vh;
   background-color: hsla(1, 74%, 88%, 0.5);
 }
@@ -16,9 +16,13 @@ body {
   font-weight: bold;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 /* Logo */
 .logo {
-  display:flex;
+  display: flex;
   align-items: flex-end;
   gap: 5px;
 }
@@ -36,28 +40,35 @@ body {
   background-color: hsl(324, 82%, 66%)
 }
 
-/* Navbar */
-.navbar {
+/* Navbar
+/* .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 16px;
-}
+} */
 
 .navbar-left {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
+  padding: 0 10rem; */
 }
 
-.navbar-list {
+/* .navbar-list {
   display: flex;
-  color: hsl(202, 16%, 35%)
+  color: hsl(202, 16%, 35%);
 }
 
-.list-item:first-child {
+.list-item:first-of-type {
   color: hsl(238, 43%, 23%);
 }
 
 .list-item {
-  padding: 2rem;
+  padding: 0 2rem
 }
+
+
+.navbar-main {
+  flex-basis: 100%;
+  padding: 0 5rem;
+} */ */
