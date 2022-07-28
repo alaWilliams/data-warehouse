@@ -8,48 +8,60 @@
   <link rel="stylesheet" href="./reset.css" type="text/css">
   <link rel="stylesheet" href="./style.css" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="main-container">
     <nav class="navbar">
-      <div class="navbar-left">
-        <div class="logo">
-          <div class="logo-circle"></div>
-          <div class="logo-rectangle"></div>
+      <div class="container">
+        <div class="navbar-left">
+          <div class="logo">
+            <div class="logo-circle"></div>
+            <div class="logo-rectangle"></div>
+          </div>
+          <div class="navbar-main">
+            <ul class="navbar-list">
+              <li class="nav-item bold">About</li>
+              <li class="nav-item">Help</li>
+              <li class="nav-item">Features</li>
+              <li class="nav-item">Signup</li>
+            </ul>
+          </div>
         </div>
-        <div class="navbar-main">
-          <ul class="navbar-list">
-            <li class="nav-item bold">About</li>
-            <li class="nav-item">Help</li>
-            <li class="nav-item">Features</li>
-            <li class="nav-item">Signup</li>
-          </ul>
+        <div class="navbar-right">
+          <button type="button" class="btn navbar-btn demo">Request Demo <span class="material-symbols-outlined">
+            arrow_right_alt
+          </span></button>
         </div>
-      </div>
-      <div class="navbar-right">
-        <button type="button" class=" bnt navbar-btn demo">Request Demo <span class="material-symbols-outlined">
-          arrow_right_alt
-        </span></button>
-      </div>
+    </div>
     </nav>
 
     <section class="headline">
-      <h1 class="headline-title">Save your data storage</h1>
-      <p class="headline-description">
-        Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. 
-      </p>
-      <img src="./images/img1.png">
-      <button type="button" class="bnt headline-bnt">Learn More</button>
+      <div class="container">
+        <div class="flex-headline">
+          <h1 class="headline-title bold">Save your data storage here.</h1>
+          <p class="headline-description">
+            Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others. 
+          </p>
+          <button type="button" class="btn headline-btn bold">Learn More</button>
+        </div>
+        <img class="headline-img" src="./images/img1.png">
+      </div>
     </section>
 
     <section class="second-section">
-      <div class="section-background">
-        <h2 class="section-title">We are a high-level data storage bank</h2>
-        <p class="section-description"> 
-          The place to store various data that you can access at any time through the internet  and where you can carry it. 
-          This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. 
-        </p>
+      <div class="section-background container">
         <img src="./images/img2.png">
+        <div class="section-wrapper">
+          <h2 class="section-title">We are a high-level data storage bank</h2>
+          <p class="section-description"> 
+            The place to store various data that you can access at any time through the internet  and where you can carry it. 
+            This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. 
+          </p>
+        </div>
+        
     </div>
     </section>
 
@@ -58,7 +70,7 @@
       <p class="section-description">
         Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.
       </p>
-      <div class="section-wrapper">
+      <div class="section-wrapper-features">
 
         <div class="ft-box">
           <h3 class="box-title">Search Data</h3>
@@ -155,7 +167,7 @@
         <h2 class="section-title">Try for free!</h2>
         <p class="section-description">Get limited 1 week free try our features!</p>
         <button class="btn footer-btn learn-more" type="button">Learn More</button>
-        <button type="button" class=" bnt footer-btn demo">Request Demo <span class="material-symbols-outlined">arrow_right_alt</span></button>
+        <button type="button" class="btn footer-btn demo">Request Demo <span class="material-symbols-outlined">arrow_right_alt</span></button>
       </div>
 
       <div class="footer-middle">
