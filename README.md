@@ -2,4 +2,4 @@
 
 static HTLM/CSS project. In progress :)
 
-https://imaginative-cajeta-11e08c.netlify.app/
+https://gleaming-frangollo-4fe622.netlify.app/
