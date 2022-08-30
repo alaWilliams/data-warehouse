@@ -85,6 +85,7 @@ body {
 
 .material-symbols-outlined {
   color: hsl(265, 68%, 65%);
+  margin-left: 1rem;
 }
 
 .headline-title {
@@ -174,40 +175,31 @@ margin: 2rem 3rem;
     grid-template-rows: repeat(2, 1fr);
     row-gap: 2rem;
   }
-
+  
   .box-one {
     background-image: url(../images/bcg-search-data.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
   }
 
   .box-two {
     background-image: url(../images/bcg-hours-access.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
   }
 
   .box-three {
     background-image: url(../images/bcg-print-out.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
   }
 
   .box-four {
     background-image: url(../images/bcg-security-code.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
   }
 
   .ft-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
   }
   
   .feature-content-wrapper > * {
@@ -217,11 +209,11 @@ margin: 2rem 3rem;
     margin-bottom: 5rem;
   }
   .box-description {
-    margin-right: 6rem;
+    width: 50%;
   }
 
   .feature-content-wrapper {
-    width: 50%;
+    width: 70%;
     
   }
 
@@ -229,16 +221,19 @@ margin: 2rem 3rem;
     font-family: Helvetica, sans-serif;
     font-size: 1.5rem;
     color: hsl(238, 43%, 23%);
+    margin-top: 5rem;
   }
 
   .ft-img {
-    height: 60%;
+    height: 50%;
   }
 
   .learn-more {
     background-color: transparent;
     box-shadow: none;
     padding: 0;
+    display: flex;
+    justify-content: flex-start;
   }
 
   /* testimonials */
@@ -376,28 +371,23 @@ margin: 2rem 3rem;
   color:hsl(0, 0%, 100%)
 }
 
-.fb {
-  background-image: url(/images/f.png);
+.sm-icon {
   width: 100%;
   height: 5rem;
   background-repeat: no-repeat;
   background-position: center
+ }
+
+.fb {
+  background-image: url(/images/f.png);
 }
 
 .tt {
   background-image: url(/images/t.png);
-  width: 100%;
-  height: 5rem;
-  background-repeat: no-repeat;
-  background-position: center
 }
 
 .insta {
   background-image: url(/images/i.png);
-  width: 100%;
-  height: 5rem;
-  background-repeat: no-repeat;
-  background-position: center
 }
 
 .footer-middle {
@@ -435,6 +425,7 @@ margin: 2rem 3rem;
   font-weight: 900;
   line-height: 160%;
   margin-bottom: 3rem;
+  list-style: none;
 }
 
 .company-address, .company-contactinfo  {
@@ -454,7 +445,6 @@ margin: 2rem 3rem;
   font-weight: 400;
 }
 
-
 .nav-sm {
   width: 12.5rem;
 }
@@ -473,6 +463,7 @@ margin: 2rem 3rem;
   height: 3.5rem;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 2rem;
 }
 
 .footer-copyright > * {
